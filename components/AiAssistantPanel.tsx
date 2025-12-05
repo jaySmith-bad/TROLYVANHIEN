@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send } from 'lucide-react';
+import { Send, CornerDownLeft } from 'lucide-react';
 
 const AiAssistantPanel: React.FC = () => {
  const [messages, setMessages] = useState([

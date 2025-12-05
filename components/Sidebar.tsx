@@ -43,7 +43,7 @@ const Sidebar: React.FC = () => {
          ))} 
        </nav> 
      </div> 
- 
+
      <div className="flex flex-col space-y-4"> 
          <div className="bg-navy rounded-lg p-4 text-center"> 
            <HelpCircle className="mx-auto w-8 h-8 text-accent-yellow mb-2"/> 
@@ -52,7 +52,7 @@ const Sidebar: React.FC = () => {
              Hỏi trợ lý AI 
            </button> 
          </div> 
- 
+
          <div className="flex items-center p-2 rounded-md hover:bg-slate-dark/40 transition-colors cursor-pointer"> 
              <img src={userAvatar} alt="VÕ VĂN QUỐC BẢO" className="w-10 h-10 rounded-full mr-3 border-2 border-slate-dark"/> 
              <div> 
@@ -64,5 +64,5 @@ const Sidebar: React.FC = () => {
    </aside> 
  ); 
 }; 
- 
+
 export default Sidebar;

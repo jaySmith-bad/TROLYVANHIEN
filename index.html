@@ -2,6 +2,7 @@
 <html lang="en">
  <head>
    <meta charset="UTF-8" />
+   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>VHU Portal - AI Student Assistant</title>
    <script src="https://cdn.tailwindcss.com"></script>
@@ -17,7 +18,7 @@
              'slate-light': '#ccd6f6',
              'slate': '#8892b0',
              'slate-dark': '#495670',
-             'accent-yellow': '#fde047',
+             'accent-yellow': '#fde047', // A slightly brighter yellow
              'accent-yellow-dark': '#facc15',
              'accent-cyan': '#22d3ee',
            },
@@ -58,17 +59,21 @@
  <script type="importmap">
 {
   "imports": {
-    "react": "https://aistudiocdn.com/react@^19.2.1",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
-    "react/": "https://aistudiocdn.com/react@^19.2.1/",
-    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
-    "recharts": "https://aistudiocdn.com/recharts@^3.5.1"
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.6",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "path": "https://aistudiocdn.com/path@^0.12.7"
   }
 }
 </script>
 </head>
  <body class="bg-navy font-sans">
    <div id="root"></div>
+   <script type="module" src="/index.tsx"></script>
  </body>
 </html>

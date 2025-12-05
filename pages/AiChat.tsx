@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, BrainCircuit } from 'lucide-react';
+import { Send, CheckCircle, BrainCircuit } from 'lucide-react';
 
 interface Message {
  id: number;
